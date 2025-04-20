@@ -260,6 +260,10 @@ class HeatmapWindow(QMainWindow):
         about_act = QAction("About", self)
         about_act.triggered.connect(self.show_about_dialog)
         help_menu.addAction(about_act)
+
+        about_qt_act = QAction("About Qt", self)
+        about_qt_act.triggered.connect(QApplication.instance().aboutQt)
+        help_menu.addAction(about_qt_act)
     def show_about_dialog(self):
         dlg = AboutDialog(self)
         dlg.exec()
