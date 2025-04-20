@@ -6,7 +6,7 @@ from .__init__ import __version__
 
 # You may want to update these constants as needed
 AUTHOR = "Twist"
-GITHUB_URL = "https://github.com/yourusername"
+GITHUB_URL = "https://github.com/dertwist/DemoViewer"
 TWITTER_URL = "https://x.com/der_twist"
 PACKAGE_VERSION = __version__
 
