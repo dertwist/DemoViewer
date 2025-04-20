@@ -1,0 +1,10 @@
+Pyside6
+qtpy
+demoparser2
+vpk
+vdf
+tabulate
+pyinstaller
+seaborn
+pyqtdarktheme
+pandas
